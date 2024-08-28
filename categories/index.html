@@ -339,7 +339,7 @@
     <div class="col-lg-12">
         <div class="trm-card">
             <div style="padding: 0 20px;">
-                <ul class="trm-tag-list"><li class="trm-tag-list-item "><a class="category-list-link" href="/categories/pole-vault-contest/">pole_vault_contest</a><span class="category-list-count">（1）</span></li><li class="trm-tag-list-item "><a class="category-list-link" href="/categories/%E6%B8%AC%E8%A9%A6%E5%88%86%E9%A1%9E/">測試分類</a><span class="category-list-count">（1）</span></li></ul>
+                <ul class="trm-tag-list"><li class="trm-tag-list-item "><a class="category-list-link" href="/categories/Information/">Information</a><span class="category-list-count">（1）</span></li><li class="trm-tag-list-item "><a class="category-list-link" href="/categories/pole-vault-contest/">pole_vault_contest</a><span class="category-list-count">（1）</span></li><li class="trm-tag-list-item "><a class="category-list-link" href="/categories/%E6%B8%AC%E8%A9%A6%E5%88%86%E9%A1%9E/">測試分類</a><span class="category-list-count">（1）</span></li></ul>
             </div>
         </div>
     </div>
@@ -348,74 +348,14 @@
                     <div class="trm-divider footer-divider"></div>
 
                     <!-- footer -->
-                    <!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>觀看次數計數器</title>
-  <style>
-    .view-counter {
-      text-align: center;
-      font-family: Arial, sans-serif;
-      margin: 20px 0;
-    }
-
-    .counter-number {
-      font-size: 2em;
-      color: #333;
-    }
-
-    .counter-symbol {
-      font-size: 1em;
-      color: #777;
-    }
-
-    .counter-label {
-      margin-top: 10px;
-      font-size: 1.2em;
-      color: #555;
-    }
-  </style>
-</head>
-<body>
-
-  <div id="view-counter" class="view-counter">
-    <div class="counter-number">
-      <span id="view-count">0</span>
-      <span class="counter-symbol">次觀看</span>
-    </div>
-    <div class="counter-label">Total Views</div>
+                    <script src="/js/firebase-config.js"></script>
+<div id="view-counter" class="view-counter">
+  <div class="counter-number">
+    <span id="view-count">0</span>
+    <span class="counter-symbol">次觀看</span>
   </div>
-
-  <script>
-    // 獲取當前的觀看次數，或者如果不存在則初始化為 0
-    let viewCount = localStorage.getItem('page_view_count') || 0;
-
-    // 增加觀看次數
-    viewCount++;
-
-    // 將更新後的觀看次數保存到 localStorage
-    localStorage.setItem('page_view_count', viewCount);
-
-    // 更新 HTML 中的顯示次數
-    document.getElementById('view-count').textContent = viewCount;
-  </script>
-   <div class="title">
-    <p>陳閔駿版權所有</p>
-  </div>
-  
-  <style>
-    .title {
-      text-align: center;
-      font-family: Arial, sans-serif;
-      margin: 20px 0;
-    }
-  </style>
-
-    
-</body>
-</html>
+  <div class="counter-label">Total Views</div>
+</div>
                     <!-- footer end -->
 
                 </div>
