@@ -7,13 +7,15 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
+<meta name="description" content="機器學習（machine learning)簡介機器學習是一門致力於開發演算法和統計模型的科學，這些演算法和模型可以讓電腦系統基於數據中的模式和推理來執行各種任務(AWS，2023)。機器學習的核心在於賦予機器類似人類的學習能力，透過使用大量數據進行訓練，系統能夠利用歸納推理演算法解決問題，並在面對新數據時自我調整，實現適應性改變。這個過程中，需謹慎地調整資料特徵和訓練資料，以提高模型的準確性，同">
 <meta property="og:type" content="article">
 <meta property="og:title" content="機器學習">
 <meta property="og:url" content="https://1030tim.github.io/2024/07/02/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/index.html">
 <meta property="og:site_name" content="Juhn&#39;s Blog">
+<meta property="og:description" content="機器學習（machine learning)簡介機器學習是一門致力於開發演算法和統計模型的科學，這些演算法和模型可以讓電腦系統基於數據中的模式和推理來執行各種任務(AWS，2023)。機器學習的核心在於賦予機器類似人類的學習能力，透過使用大量數據進行訓練，系統能夠利用歸納推理演算法解決問題，並在面對新數據時自我調整，實現適應性改變。這個過程中，需謹慎地調整資料特徵和訓練資料，以提高模型的準確性，同">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-07-02T03:23:11.000Z">
-<meta property="article:modified_time" content="2024-08-31T05:17:16.896Z">
+<meta property="article:modified_time" content="2024-08-31T09:02:41.881Z">
 <meta property="article:author" content="陳閔駿">
 <meta name="twitter:card" content="summary">
 
@@ -61,7 +63,7 @@
 
 <!-- Variable -->
 <script>window.ASYNC_CONFIG = {"hostname":"1030tim.github.io","author":"陳閔駿","root":"/","typed_text":["好想睡覺"],"theme_version":"2.2.3","theme":{"switch":true,"default":"style-light"},"favicon":{"logo":"logo1.svg","icon16":"logo1.svg","icon32":"logo1.svg","apple_touch_icon":"apple-touch-icon.png","webmanifest":"/site.webmanifest","visibilitychange":true,"hidden":"failure.ico","show_text":"(/≧▽≦/)咦！又好了！","hide_text":"(●—●)喔哟，崩溃啦！"},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"default","height_limit":false},"toc":{"post_title":true},"live_time":{"start_time":"08/27/2024 17:00:00","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"},"creative_commons":{"license":"by-nc-sa","language":"deed.zh-hans"}};</script>
-<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-08-31 13:17:16"};</script>
+<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-08-31 17:02:41"};</script>
 
 <!-- Theme mode css -->
 <link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.2.3" id="trm-switch-style">
@@ -364,7 +366,18 @@
 </div>
 <div class="trm-card ">
     <article id="article-container" class="trm-publication">
-    
+    <h1 id="機器學習（machine-learning"><a href="#機器學習（machine-learning" class="headerlink" title="機器學習（machine learning)"></a>機器學習（machine learning)</h1><h3 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h3><p>機器學習是一門致力於開發演算法和統計模型的科學，<br>這些演算法和模型可以讓電腦系統基於數據中的模式和推理來執行各種任務<br>(AWS，2023)。<br>機器學習的核心在於賦予機器類似人類的學習能力，<br>透過使用大量數據進行訓練，系統能夠利用歸納推理演算法解決問題，<br>並在面對新數據時自我調整，實現適應性改變。<br>這個過程中，需謹慎地調整資料特徵和訓練資料，<br>以提高模型的準確性，同時避免「過度擬合（Overfitting）」的情況。</p>
+<p>機器學習主要分為四種類別：</p>
+<li>監督式學習</li>
+<li>半監督式學習</li>
+<li>無監督學習</li>
+<li>強化學習</li>
+
+
+<h3 id="監督式學習"><a href="#監督式學習" class="headerlink" title="監督式學習"></a>監督式學習</h3><p>監督式學習是從已標註的訓練資料集中學習出一個函數，當新的資料到來時，該函數可以預測其結果。監督學習的訓練集包含輸入（特徵）和輸出（目標），其中目標是由人類標註的。常見的監督學習演算法包括迴歸分析和統計分類 (維基百科, 2024)。</p>
+<p>線性回歸是一種監督式機器學習演算法，用於通過將線性方程擬合到觀測數據，來估算因變數與一個或多個獨立特徵之間的線性關係 (GeeksforGeeks, 2024)。回歸模型的方程通常表達為  y &#x3D; wx + b ，其中：</p>
+<p> w  是權重，代表每個特徵對結果的影響，可以使用梯度下降法找到最佳值，以確保模型的誤差最小化。<br>x  代表特徵值，例如撐竿跳高運動中選手的助跑速度。<br>b  是截距項，當  x &#x3D; 0  時，模型對成績的預測值。</p>
+
 </article>
     
     
