@@ -7,16 +7,24 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Juhn&#39;s Blog">
-<meta property="og:url" content="https://1030tim.github.io/archives/2024/page/2/index.html">
+<meta name="description" content="計算機概論5檢查碼 例如身份字號F233456789 其中F代表地區 剩下七個數字為流水號  Big - 5編碼規則（可變長度編碼） 兩個byte代表一個漢字 想辦法與英文字母相容  分首碼次碼，高位元的在前面   舉例：big-5 (cont’) 0  一   Ａ4440  1  乙    A4440  3  丁    A4440  5400 籲 C67E  5401 乂 C940  5402">
+<meta property="og:type" content="article">
+<meta property="og:title" content="計算機概論5">
+<meta property="og:url" content="https://1030tim.github.io/2024/10/09/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%965/index.html">
 <meta property="og:site_name" content="Juhn&#39;s Blog">
+<meta property="og:description" content="計算機概論5檢查碼 例如身份字號F233456789 其中F代表地區 剩下七個數字為流水號  Big - 5編碼規則（可變長度編碼） 兩個byte代表一個漢字 想辦法與英文字母相容  分首碼次碼，高位元的在前面   舉例：big-5 (cont’) 0  一   Ａ4440  1  乙    A4440  3  丁    A4440  5400 籲 C67E  5401 乂 C940  5402">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://1030tim.github.io/img/404.jpg">
+<meta property="og:image" content="https://1030tim.github.io/img/404.jpg">
+<meta property="article:published_time" content="2024-10-08T23:38:56.000Z">
+<meta property="article:modified_time" content="2024-10-09T01:53:46.053Z">
 <meta property="article:author" content="陳閔駿">
+<meta property="article:tag" content="計算機概論">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://1030tim.github.io/img/404.jpg">
 
 
-<title >Juhn's Blog</title>
+<title >計算機概論5</title>
 
 <!-- Favicon -->
 
@@ -59,7 +67,7 @@
 
 <!-- Variable -->
 <script>window.ASYNC_CONFIG = {"hostname":"1030tim.github.io","author":"陳閔駿","root":"/","typed_text":["沒有放棄"],"theme_version":"2.2.3","theme":{"switch":true,"default":"style-dark"},"favicon":{"logo":"logo1.svg","icon16":"logo1.svg","icon32":"logo1.svg","apple_touch_icon":"apple-touch-icon.png","webmanifest":"/site.webmanifest","visibilitychange":true,"hidden":"failure.ico","show_text":"(/≧▽≦/)我以為你不見了！","hide_text":"(●—●)快回來啦！"},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms","author":"Post author: ","copyright_link":"Post link: ","copyright_license_title":"Copyright Notice: ","copyright_license_content":"All articles in this blog are licensed under undefined unless otherwise stated.","copy_success":"Copied","copy_failure":"Copy failed","open_read_mode":"Enter reading mode","exit_read_mode":"Exit reading mode","notice_outdate_message":"It has been undefined days since the last update, the content of the article may be outdated.","sticky":"TOP","just":"Just","min":"minutes ago","hour":"hours ago","day":"days ago","month":"months ago"},"swup":false,"plugin":{"flickr_justified_gallery":"https://unpkg.com/flickr-justified-gallery@latest/dist/fjGallery.min.js"},"icons":{"sun":"far fa-sun","moon":"far fa-moon","play":"fas fa-play","email":"far fa-envelope","next":"fas fa-arrow-right","calendar":"far fa-calendar-alt","clock":"far fa-clock","user":"far fa-user","back_top":"fas fa-arrow-up","close":"fas fa-times","search":"fas fa-search","reward":"fas fa-hand-holding-usd","toc_tag":"fas fa-th-list","read":"fas fa-book-reader","arrows":"fas fa-arrows-alt-h","double_arrows":"fas fa-angle-double-down","copy":"fas fa-copy"},"icontype":"font","highlight":{"plugin":"highlighjs","theme":true,"copy":true,"lang":true,"title":"default","height_limit":false},"toc":{"post_title":false},"live_time":{"start_time":"07/27/2024 00:00:00","prefix":"The blog has been lovely to run undefined day"},"danmu":{"enable":false,"el":".trm-banner"},"creative_commons":{"license":"by-nc-sa","language":"deed.zh-hans"},"search":{"enable":true,"type":"local","href":"https://www.google.com/search?q=site:","domain":null}};</script>
-<script id="async-page-config">window.PAGE_CONFIG = {"isPost":false,"isHome":false,"postUpdate":"2024-10-09 09:54:51"};</script>
+<script id="async-page-config">window.PAGE_CONFIG = {"isPost":true,"isHome":false,"postUpdate":"2024-10-09 09:53:46"};</script>
 
 <!-- Theme mode css -->
 <link data-swup-theme rel="stylesheet" href="/css/index.css?v=2.2.3" id="trm-switch-style">
@@ -218,17 +226,15 @@
         <div class="container">
             <div class="row">
                 
-                <div class="col-lg-4"></div>
-                
-                <div class="col-lg-8">
+                <div class="col-lg-12">
 
                     <!-- banner title -->
-                    <div class="trm-banner-text ">
+                    <div class="trm-banner-text trm-text-center ">
                         <div class="trm-label trm-mb-20">
-                            The article archive
+                            NEWS LETTER
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
-                            堅持到底，<br>別輕言放棄。
+                            計算機概論5
                         </h1>
 
                         
@@ -238,7 +244,7 @@
                                 </li>
                                 <li>
                                     <span>
-                                        archives
+                                        2024
                                     </span>
                                 </li>
                             </ul>
@@ -263,178 +269,135 @@
     <div class="container">
         <div class="row">
             
-                <div class="trm-page-sidebar col-lg-4 hidden-sm">
-                    <!-- main card -->
-                    <div class="trm-main-card-frame trm-sidebar">
-    <div class="trm-main-card"> 
-        <!-- card header -->
-<div class="trm-mc-header">
-    <div class="trm-avatar-frame trm-mb-20">
-        <img alt="Avatar" class="trm-avatar" src="/images/my.jpeg">
-    </div>
-    <h5 class="trm-name trm-mb-15">
-        陳閔駿
-    </h5>
-    
-        <div class="trm-label">
-            我的字典
-            <span class="trm-typed-text">
-                <!-- Words for theme.user.typedText -->
-            </span>
-        </div>
-    
-</div>
-<!-- card header end -->
-        <!-- sidebar social -->
-
-<div class="trm-divider trm-mb-40 trm-mt-40"></div>
-<div class="trm-social">
-    
-        <a href="https://github.com/1030Tim" title="github" rel="nofollow" target="_blank">
-            <i class="iconfont fab fa-github"></i>
-        </a>
-    
-        <a href="https://www.instagram.com/juhn.1030py/" title="instagram" rel="nofollow" target="_blank">
-            <i class="iconfont fab fa-instagram"></i>
-        </a>
-    
-</div>
-
-<!-- sidebar social end -->
-        <!-- info -->
-<div class="trm-divider trm-mb-40 trm-mt-40"></div>
-<ul class="trm-table trm-mb-20">
-    
-        <li>
-            <div class="trm-label">
-                年齡:
-            </div>
-            <div class="trm-label trm-label-light">
-                17
-            </div>
-        </li>
-    
-        <li>
-            <div class="trm-label">
-                學校:
-            </div>
-            <div class="trm-label trm-label-light">
-                屏東陸興高中
-            </div>
-        </li>
-    
-        <li>
-            <div class="trm-label">
-                專長:
-            </div>
-            <div class="trm-label trm-label-light">
-                撐竿跳高
-            </div>
-        </li>
-    
-        <li>
-            <div class="trm-label">
-                喜好:
-            </div>
-            <div class="trm-label trm-label-light">
-                machine learning
-            </div>
-        </li>
-    
-</ul>
-<!-- info end -->
-
-        
-    <div class="trm-divider trm-mb-40 trm-mt-40"></div>
-    <!-- action button -->
-    <div class="text-center">
-        <a href="mailto:jun20061030@gmail.com" class="trm-btn">
-            Contact Me
-            <i class="iconfont far fa-envelope"></i>
-        </a>
-    </div>
-    <!-- action button end -->
-
-    </div>
-</div>
-                    <!-- main card end -->
-                </div>
-            
-            <div class="trm-page-content col-lg-8">
+            <div class="trm-page-content col-lg-12">
                 <div id="trm-content" class="trm-content">
-                    <div class="row">
-    <div class="col-lg-12">
-        <div class="trm-card">
-            <div style="padding: 0 20px;">
-                
-                    <ul class="trm-tag-list"><li class="trm-tag-list-item"><a class="archive-list-link" href="/archives/2024/">2024</a><span class="archive-list-count">（12）</span></li></ul>
-                
-            </div>
+                    <div class="trm-post-info row hidden-sm">
+    <div class="col-sm-4">
+        <div class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-calendar-alt trm-icon"></i><br>
+            10/09
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-clock trm-icon"></i><br>
+            07:38
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div id="post-author" class="trm-card trm-label trm-label-light text-center">
+            <i class="iconfont far fa-user trm-icon"></i><br>
+            陳閔駿
         </div>
     </div>
 </div>
+<div class="trm-card ">
+    <article id="article-container" class="trm-publication">
+    <h1 id="計算機概論5"><a href="#計算機概論5" class="headerlink" title="計算機概論5"></a>計算機概論5</h1><h2 id="檢查碼"><a href="#檢查碼" class="headerlink" title="檢查碼"></a>檢查碼</h2><ul>
+<li>例如身份字號F233456789</li>
+<li>其中F代表地區</li>
+<li>剩下七個數字為流水號</li>
+</ul>
+<h2 id="Big-5編碼規則（可變長度編碼）"><a href="#Big-5編碼規則（可變長度編碼）" class="headerlink" title="Big - 5編碼規則（可變長度編碼）"></a>Big - 5編碼規則（可變長度編碼）</h2><ul>
+<li>兩個byte代表一個漢字</li>
+<li>想辦法與英文字母相容</li>
+</ul>
+<p>分首碼次碼，高位元的在前面</p>
+<p><img src="https://idv.sinica.edu.tw/bear/charcodes/images/fig9-2.gif" alt="cscl.png"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<p><img src="/images/cscl.png" alt="big-5.gif"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<h3 id="舉例：big-5-cont’"><a href="#舉例：big-5-cont’" class="headerlink" title="舉例：big-5 (cont’)"></a>舉例：big-5 (cont’)</h3><ul>
+<li><p>0  一   Ａ4440</p>
+</li>
+<li><p>1  乙    A4440</p>
+</li>
+<li><p>3  丁    A4440</p>
+</li>
+<li><p>5400 籲 C67E</p>
+</li>
+<li><p>5401 乂 C940</p>
+</li>
+<li><p>5402 乜 C941</p>
+</li>
+<li><p>5403 凵 C942</p>
+</li>
+<li><p>5404 匚 C943</p>
+</li>
+<li><p>5405 厂 C944</p>
+</li>
+<li><p>5406 万 C945</p>
+</li>
+<li><p>5407 丌 C946</p>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://web.tnu.edu.tw/me/study/moodle/tutor/vb6/tutor/r05/index.htm">https://web.tnu.edu.tw/me/study/moodle/tutor/vb6/tutor/r05/index.htm</a></p>
+<p>其中有 408 個符號和所<br>謂常用字 5401 個,次常用字 7652 個</p>
+<h2 id="輸入法"><a href="#輸入法" class="headerlink" title="輸入法"></a>輸入法</h2><ul>
+<li>字音輸入法<ul>
+<li>注音</li>
+<li>拼音</li>
+</ul>
+</li>
+<li>字型輸入法<ul>
+<li>倉頡</li>
+<li>大易</li>
+</ul>
+</li>
+</ul>
 
-<!-- history -->
+</article>
+    
+    
 
-<div class="row">
+<ul class="trm-post-copyright">
+    <li class="trm-post-copyright-author">
+        <strong>Post author: </strong>
+        陳閔駿
+    </li>
+    <li class="trm-post-copyright-link">
+        <strong>Post link: </strong>
+        <a id="original-link" href="https://1030tim.github.io/2024/10/09/計算機概論5/" title="計算機概論5">https://1030tim.github.io/2024/10/09/計算機概論5/</a>
+    </li>
+    <li class="trm-post-copyright-license">
+        <strong>Copyright Notice: </strong>
+        All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA 4.0</a> unless otherwise stated.
+    </li>
+</ul>
+
+
+</div>
+<div class="trm-post-next-prev row">
     <div class="col-lg-12">
         <!-- title -->
         <h5 class="trm-title-with-divider">
-            
-                Archive for 2024
-            
-            <span data-number="01"></span>
+            Other Articles
+            <span data-number="02"></span>
         </h5>
     </div>
-    <div class="col-lg-12">
-        <!-- timeline -->
-        <div class="trm-timeline">
+    
+    
+        <div class="col-lg-6">
+    <div class="trm-older-publications-card trm-scroll-animation trm-active-el">
+        <div class="trm-older-publication">
             
-            <div class="trm-timeline-item trm-scroll-animation">
-                <div class="trm-timeline-mark-light"></div>
-                <div class="trm-timeline-mark"></div>
-                <div class="trm-timeline-content less">
-                    
-                        <div class="trm-card-header">
-                            <h6>
-                                <a href="/2024/07/10/%E6%92%90%E7%AB%BF%E8%B7%B3%E5%8A%A9%E8%B7%91/" class="trm-anima-link">
-                                    撐竿跳助跑
-                                </a>
-                            </h6>
-                        </div>
-                    
-                </div>
-            </div>
-            
-            <div class="trm-timeline-item trm-scroll-animation">
-                <div class="trm-timeline-mark-light"></div>
-                <div class="trm-timeline-mark"></div>
-                <div class="trm-timeline-content less">
-                    
-                        <div class="trm-card-header">
-                            <h6>
-                                <a href="/2024/07/09/%E6%92%90%E7%AB%BF%E8%B7%B3%E6%8C%81%E7%AB%BF/" class="trm-anima-link">
-                                    撐竿跳持竿
-                                </a>
-                            </h6>
-                        </div>
-                    
-                </div>
-            </div>
-            
+            <a class="trm-op-top trm-anima-link" href="/2024/09/12/%E8%A8%88%E7%AE%97%E6%A9%9F%E6%A6%82%E8%AB%962/">
+                <span class="trm-op-cover">
+                    <img alt="cover" class="no-fancybox" src="/img/block.jpg">
+                </span>
+                <h6 class="trm-op-title">計算機概論2.0</h6>
+            </a>
+            <div class="trm-divider trm-mb-15 trm-mt-20"></div>
+            <ul class="trm-card-data trm-label">
+                <li>24/09/12</li>
+                <li>20:53</li>
+                <li>Unclassified</li>
+            </ul>
         </div>
-        <!-- timeline end -->
     </div>
 </div>
+    
+</div>
 
-<!-- history end -->
-
-
-    <div class="trm-pagination">
-        <a class="page-number" href="/archives/2024/">1</a><span class="page-number current">2</span>
-    </div>
-
-
+    
 
 
 
@@ -470,8 +433,24 @@
 
             
 
+    <div id="post-toc" class="trm-post-toc">
+      <div class="trm-post-toc-header">
+        Article table of contents
+				<span id="post-toc-top">
+					TOP
+				</span>
+      </div>
+      <div class="trm-post-toc-content">
+        <ol class="trm-toc"><li class="trm-toc-item trm-toc-level-1" title="計算機概論5"><a rel="nofollow" class="trm-toc-link" href="#計算機概論5"><span class="trm-toc-number">1.</span> <span class="trm-toc-text">計算機概論5</span></a><ol class="trm-toc-child"><li class="trm-toc-item trm-toc-level-2" title="檢查碼"><a rel="nofollow" class="trm-toc-link" href="#檢查碼"><span class="trm-toc-number">1.1.</span> <span class="trm-toc-text">檢查碼</span></a></li><li class="trm-toc-item trm-toc-level-2" title="Big - 5編碼規則（可變長度編碼）"><a rel="nofollow" class="trm-toc-link" href="#Big-5編碼規則（可變長度編碼）"><span class="trm-toc-number">1.2.</span> <span class="trm-toc-text">Big - 5編碼規則（可變長度編碼）</span></a><ol class="trm-toc-child"><li class="trm-toc-item trm-toc-level-3" title="舉例：big-5 (cont’)"><a rel="nofollow" class="trm-toc-link" href="#舉例：big-5-cont’"><span class="trm-toc-number">1.2.1.</span> <span class="trm-toc-text">舉例：big-5 (cont’)</span></a></li></ol></li><li class="trm-toc-item trm-toc-level-2" title="輸入法"><a rel="nofollow" class="trm-toc-link" href="#輸入法"><span class="trm-toc-number">1.3.</span> <span class="trm-toc-text">輸入法</span></a></li></ol></li></ol>
+      </div>
+    </div>
+
             
 <div class="trm-fixed-container">
+    
+        <div class="trm-fixed-btn post-toc-btn" data-title="Open toc">
+            <i class="iconfont fas fa-th-list"></i>
+        </div>
     
     
     
@@ -549,6 +528,10 @@
     
 
     <!-- 评论插件 -->
+    
+        
+
+        
     
 
 		
