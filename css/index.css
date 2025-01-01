@@ -3255,6 +3255,88 @@ details p {
     left: 20px;
   }
 }
+.trm-read-mode {
+  padding: 0;
+  background-color: var(--theme-bg-color, #fcfcfe);
+}
+.trm-read-mode::before {
+  content: unset;
+}
+.trm-read-mode .trm-app-frame {
+  border: none;
+  border-radius: 0;
+  background-color: var(--theme-bg-color, #fcfcfe);
+}
+.trm-read-mode .trm-top-bar,
+.trm-read-mode .trm-page-sidebar,
+.trm-read-mode .trm-post-info,
+.trm-read-mode .trm-post-next-prev,
+.trm-read-mode .footer-divider,
+.trm-read-mode .trm-fixed-container,
+.trm-read-mode footer {
+  display: none;
+}
+.trm-read-mode .trm-banner {
+  height: 40px;
+  z-index: 10;
+}
+.trm-read-mode .trm-banner .trm-banner-content.trm-overlay {
+  padding-top: 0;
+  background-color: var(--theme-bg-color, #fcfcfe);
+}
+.trm-read-mode .trm-banner .trm-banner-content.trm-overlay .trm-banner-text h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  line-height: 40px;
+  font-size: 22px;
+  text-align: center;
+  color: var(--theme-color, #00283a);
+  background-color: var(--theme-bg-color, #fcfcfe);
+}
+.trm-read-mode .trm-banner .trm-banner-content.trm-overlay .trm-banner-text div,
+.trm-read-mode .trm-banner .trm-banner-content.trm-overlay .trm-banner-text .trm-breadcrumbs {
+  display: none;
+}
+.trm-read-mode .trm-banner .trm-banner-cover,
+.trm-read-mode .trm-banner .trm-slideshow,
+.trm-read-mode .trm-banner .trm-scroll-hint-frame {
+  display: none;
+}
+.trm-read-mode .trm-page-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.trm-read-mode .trm-page-content .trm-content {
+  margin: 0 !important;
+}
+.trm-read-mode .trm-page-content .trm-content > .trm-card {
+  padding: 10px 0 0;
+}
+.trm-read-mode .trm-card {
+  box-shadow: none;
+}
+.trm-exit-readmode {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 100;
+  font-size: 1.2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--fixed-button-bg-color);
+  color: var(--fixed-button-color);
+}
+.trm-exit-readmode:hover {
+  color: var(--primary);
+}
 /* code title */
 /* mac style title */
 /* max height */
